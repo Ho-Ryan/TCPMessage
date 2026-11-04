@@ -1,0 +1,10 @@
+C:\Users\horya\Documents\CFPT\TCPMessage\obj\Debug\TCPMessage.csproj.AssemblyReference.cache
+C:\Users\horya\Documents\CFPT\TCPMessage\obj\Debug\TCPMessage.frmMessagTCP.resources
+C:\Users\horya\Documents\CFPT\TCPMessage\obj\Debug\TCPMessage.Properties.Resources.resources
+C:\Users\horya\Documents\CFPT\TCPMessage\obj\Debug\TCPMessage.csproj.GenerateResource.cache
+C:\Users\horya\Documents\CFPT\TCPMessage\obj\Debug\TCPMessage.csproj.CoreCompileInputs.cache
+C:\Users\horya\Documents\CFPT\TCPMessage\bin\Debug\TCPMessage.exe.config
+C:\Users\horya\Documents\CFPT\TCPMessage\bin\Debug\TCPMessage.exe
+C:\Users\horya\Documents\CFPT\TCPMessage\bin\Debug\TCPMessage.pdb
+C:\Users\horya\Documents\CFPT\TCPMessage\obj\Debug\TCPMessage.exe
+C:\Users\horya\Documents\CFPT\TCPMessage\obj\Debug\TCPMessage.pdb
