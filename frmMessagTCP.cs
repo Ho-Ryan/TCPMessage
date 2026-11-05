@@ -14,68 +14,57 @@ namespace TCPMessage
 {
     public partial class frmMessagTCP : Form
     {
-        private const int _port = 13000;
-        private TcpListener _tcpListener;
-        private byte[] _buffer = new byte[256];
+        private Connection _connection;
+        private const string _ipDefault = "127.0.0.1";
 
         public frmMessagTCP()
         {
             InitializeComponent();
-            var ipAdress = IPAddress.Parse("127.0.0.1");
-            _tcpListener = new TcpListener(ipAdress, _port);
+            _connection = new Connection();
+            tbxIpAdress.Text = _ipDefault;
         }
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            string receivedMessage = string.Empty;
-            try
-            {
-                var client = new TcpClient("127.0.0.1", _port);
-
-                //client.Connect(IPAddress.Any, _port);
-                var tcpStream = client.GetStream();
-
-                var response = Encoding.UTF8.GetBytes(tbxSend.Text);
-
-                tcpStream.Write(response, 0, response.Length);
-                client.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            _connection.Send(tbxSend.Text);
         }
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            RecieveMessage();
+            string message;
+            try
+            {
+                message = _connection.RecieveMessage();
+                if (message != null)
+                {
+                    tbxReceived.Text = message;
+                }
+            }
+            catch (Exception ex)
+            {
+                tbxIpAdress.Text = _ipDefault;
+                tbxLog.Text += ex + Environment.NewLine;
+            }
         }
 
-        private async void RecieveMessage()
+        private void btnSetIp_Click(object sender, EventArgs e)
         {
-            _tcpListener.Start();
-            string receivedMessage = string.Empty;
-
-            if (_tcpListener.Pending())
+            try
             {
-                TcpClient client = _tcpListener.AcceptTcpClient();
-
-                var tcpStream = client.GetStream();
-
-                int readTotal;
-
-                while ((readTotal = tcpStream.Read(_buffer, 0, _buffer.Length)) != 0 ||
-                    receivedMessage == string.Empty)
-                {
-                    receivedMessage = Encoding.UTF8.GetString(_buffer, 0, _buffer.Length);
-                    //tcpStream.Write(message, 0, message.Length);
-                    break;
-                }
-
-                tbxReceived.Text = receivedMessage;
-                _tcpListener.Stop();
-                client.Dispose();
+                _connection.SetIp(tbxIpAdress.Text);
+                tbxLog.Text += "Changement d'ip" + Environment.NewLine;
             }
+            catch (Exception ex)
+            {
+                tbxIpAdress.Text = _ipDefault;
+                tbxLog.Text += ex.Message + Environment.NewLine;
+            }
+        }
+
+        private void tbxLog_TextChanged(object sender, EventArgs e)
+        {
+            tbxLog.SelectionStart = tbxLog.Text.Length;
+            tbxLog.ScrollToCaret();
         }
     }
 }
