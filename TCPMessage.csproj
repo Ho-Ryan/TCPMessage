@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCE8EAEC-AF09-425D-BB92-5D07A2FAD5FF}</ProjectGuid>
+    <ProjectGuid>{FF43D680-C1C7-4C81-9D61-51B5B78FFFB5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>TCPMessage</RootNamespace>
     <AssemblyName>TCPMessage</AssemblyName>
@@ -47,16 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection.cs" />
-    <Compile Include="frmMessagTCP.cs">
+    <Compile Include="frmTCPMessage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMessagTCP.Designer.cs">
-      <DependentUpon>frmMessagTCP.cs</DependentUpon>
+    <Compile Include="frmTCPMessage.Designer.cs">
+      <DependentUpon>frmTCPMessage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmMessagTCP.resx">
-      <DependentUpon>frmMessagTCP.cs</DependentUpon>
+    <EmbeddedResource Include="frmTCPMessage.resx">
+      <DependentUpon>frmTCPMessage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

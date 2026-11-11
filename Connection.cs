@@ -33,7 +33,7 @@ namespace TCPMessage
                 TcpClient client = new TcpClient(_ip, _port);
 
                 //client.Connect(IPAddress.Any, _port);
-                var tcpStream = client.GetStream();
+                NetworkStream tcpStream = client.GetStream();
 
                 byte[] response = Encoding.UTF8.GetBytes(message);
 
@@ -57,7 +57,7 @@ namespace TCPMessage
                 {
                     TcpClient client = _tcpListener.AcceptTcpClient();
 
-                    var tcpStream = client.GetStream();
+                    NetworkStream tcpStream = client.GetStream();
                     int readTotal;
 
                     while ((readTotal = tcpStream.Read(_buffer, 0, _buffer.Length)) != 0 ||
@@ -82,12 +82,12 @@ namespace TCPMessage
 
         public void SetIp(string newIp)
         {
-            if(IPAddress.TryParse(newIp, out _))
+            if (IPAddress.TryParse(newIp, out _))
             {
                 _ip = newIp;
                 _tcpListener.Stop();
                 _tcpListener = new TcpListener(IPAddress.Parse(_ip), _port);
-            } 
+            }
             else
             {
                 throw (new Exception("Not an ip adress"));

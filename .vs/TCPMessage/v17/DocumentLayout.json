@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF43D680-C1C7-4C81-9D61-51B5B78FFFB5}|TCPMessage.csproj|C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF43D680-C1C7-4C81-9D61-51B5B78FFFB5}|TCPMessage.csproj|solutionrelative:connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF43D680-C1C7-4C81-9D61-51B5B78FFFB5}|TCPMessage.csproj|c:\\users\\admin\\documents\\2026-2027\\perso2\\tcpmessage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF43D680-C1C7-4C81-9D61-51B5B78FFFB5}|TCPMessage.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF43D680-C1C7-4C81-9D61-51B5B78FFFB5}|TCPMessage.csproj|C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\frmtcpmessage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF43D680-C1C7-4C81-9D61-51B5B78FFFB5}|TCPMessage.csproj|solutionrelative:frmtcpmessage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF43D680-C1C7-4C81-9D61-51B5B78FFFB5}|TCPMessage.csproj|C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\frmtcpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF43D680-C1C7-4C81-9D61-51B5B78FFFB5}|TCPMessage.csproj|solutionrelative:frmtcpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF43D680-C1C7-4C81-9D61-51B5B78FFFB5}|TCPMessage.csproj|C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\frmtcpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF43D680-C1C7-4C81-9D61-51B5B78FFFB5}|TCPMessage.csproj|solutionrelative:frmtcpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T08:14:29.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\Connection.cs",
+              "RelativeDocumentMoniker": "Connection.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\Connection.cs",
+              "RelativeToolTip": "Connection.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwDsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T08:12:29.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmTCPMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\frmTCPMessage.cs",
+              "RelativeDocumentMoniker": "frmTCPMessage.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\frmTCPMessage.cs",
+              "RelativeToolTip": "frmTCPMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T08:11:50.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmTCPMessage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\frmTCPMessage.Designer.cs",
+              "RelativeDocumentMoniker": "frmTCPMessage.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\frmTCPMessage.Designer.cs",
+              "RelativeToolTip": "frmTCPMessage.Designer.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowHoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T08:08:57.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmTCPMessage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\frmTCPMessage.cs",
+              "RelativeDocumentMoniker": "frmTCPMessage.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\2026-2027\\Perso2\\TCPMessage\\frmTCPMessage.cs [Design]",
+              "RelativeToolTip": "frmTCPMessage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T08:08:17.934Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
